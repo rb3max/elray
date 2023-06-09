@@ -1,0 +1,71 @@
+a {
+    display: inline;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    color: aliceblue;
+      /* Styling the nav bar */
+
+}
+body{
+    font-family: "roboto",sans-serif;
+    text-align: center;
+    background: linear-gradient(to right, #6d6460, #080808); 
+          /* Styling the whole body */
+
+      }
+.first{
+    color: blue;
+    border: 3px double #fcf9f9; 
+    padding-top: 10px;
+    padding-right: 200px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    text-decoration: double;
+    text-transform: capitalize;
+                /* Styling the first paragraph */
+
+    
+    
+}
+.second {
+    color: aqua;
+    border: 3px double #fcf9f9; 
+    padding-top: 10px;
+    padding-right: 200px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    text-decoration: double;
+    text-transform: capitalize;
+          /* Styling the second paragraph */
+      
+}
+.third {
+    color: burlywood;
+    border: 3px double #fcf9f9; 
+    padding-top: 10px;
+    padding-right: 200px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    text-decoration: double;
+    text-transform: capitalize;
+          /* Styling the third paragraph */
+      
+            
+      
+}
+img {
+    width: 1000px;
+    height: auto;
+          /* changing the demonsional of the image */
+ 
+  }
+  audio {
+    width: 1000px;
+          /* changing the audio bar's demonsional */
+
+  }
+  
+  
+  
+  
+  
