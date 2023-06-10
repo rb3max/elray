@@ -1,64 +1,119 @@
-a {
-    display: inline;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: xx-large;
-    color: aliceblue;
-      /* Styling the nav bar */
-
-}
 body{
     font-family: "roboto",sans-serif;
-    text-align: center;
-    background: linear-gradient(to right, #6d6460, #080808); 
-          /* Styling the whole body */
+    background-color: darkslategray;
 
-      }
-.first{
-    color: blue;
-    border: 3px double #fcf9f9; 
-    padding-top: 10px;
-    padding-right: 200px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    text-decoration: double;
-    text-transform: capitalize;
-                /* Styling the first paragraph */
+}
 
-    
-    
+
+/* styling the whole body */
+
+nav  {
+        display: flex;
+        justify-content: space-between; 
+        
+}     
+/* styling the nav bar */
+.the-logo{
+    width: 100px;
+    height: auto;
+    border-radius: 50%; 
+    overflow: hidden; 
+
 }
-.second {
-    color: aqua;
-    border: 3px double #fcf9f9; 
-    padding-top: 10px;
-    padding-right: 200px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    text-decoration: double;
-    text-transform: capitalize;
-          /* Styling the second paragraph */
-      
-}
-.third {
-    color: burlywood;
-    border: 3px double #fcf9f9; 
-    padding-top: 10px;
-    padding-right: 200px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    text-decoration: double;
-    text-transform: capitalize;
-          /* Styling the third paragraph */
-      
-            
-      
-}
-img {
+  
+
+
+/* styling the logo */
+
+
+
+.nav-button {
+    background-color: #7ab5ec; 
+    color: #FFFFFF; 
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+  }
+  
+  .nav-button:hover {
+    background-color: #18819b; 
+  }
+
+
+/* styling the buttons in the nav bars */
+
+
+  #paragraph-input{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #7ab5ec; 
+    border-radius: 8px;
+    background-color: #FFF8DC; 
+    color: #333333; 
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    resize: none; 
+     
+  }
+
+
+/* styling the input paragraph  */
+
+
+  .main-images {
     width: 1000px;
     height: auto;
-          /* changing the demonsional of the image */
- 
+          
   }
+
+/* changing the demonsional of the image */
+
+
+p {
+    font-family: "Arial", sans-serif; 
+    font-size: 20px; 
+    line-height: 1.5; 
+    color: #5e9fd4;
+    text-align: justify; 
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+    word-spacing: 4px; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+    margin: 20px 0; 
+  }
+
+/* styling the paragraphs */
+
+.the-audio {
+    width: 300px; 
+    margin: 10px 0;
+    width:100% ;
+    height: 40px; 
+    background-color: #7ab5ec;
+    border-radius: 4px;
+  }
+ /* styling the audio bar */ 
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+      
+
+
+ 
+  
   audio {
     width: 1000px;
           /* changing the audio bar's demonsional */
